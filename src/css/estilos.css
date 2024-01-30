@@ -28,7 +28,7 @@ body {
     color: #e8e8e8;
     font-weight: bolder;
     font-size: 15px;
-    font-family: 'Chalet';
+    font-family: "Chalet";
 }
 
 .cabecalho .menu li a:hover {
@@ -42,11 +42,11 @@ body {
 }
 
 .home::after {
-    content: '';
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
-    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.7) 35%, transparent 65%);
 }
 
 .home .imagem-fundo {
@@ -76,28 +76,28 @@ body {
 }
 
 .home .informacoes .titulo {
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 55px;
 }
 
 .home .informacoes .texto {
-    font-family: 'Chalet';
+    font-family: "Chalet";
     font-size: 18px;
     line-height: 1.6;
 }
 
 .btn-comprar,
 .btn-plataforma {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, 0.1);
     border: 0.5px solid #fff;
     border-radius: 4px;
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 28px;
     text-align: center;
     padding: 20px 40px;
     text-transform: uppercase;
     width: 50%;
-    transition: all .3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .btn-plataforma {
@@ -124,7 +124,7 @@ body {
 }
 
 .compre-ja .titulo {
-    font-family: 'ChalterComprime';
+    font-family: "ChaletComprime";
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -148,14 +148,14 @@ body {
 }
 
 .compre-ja .informacoes h3 {
-    font-family: 'ChaletComprime';
+    font-family: "ChaletComprime";
     font-size: 52px;
     font-weight: 700;
 }
 
-.compre-ja .informacoes {
+.compre-ja .informacoes p {
     color: #e8e8e8;
-    font-family: 'Chalet';
+    font-family: "Chalet";
     font-size: 16px;
     line-height: 1.6;
 }
@@ -172,7 +172,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: all .3 ease-in;
+    transition: all 0.3s ease-in;
     display: none;
     opacity: 0;
 }
@@ -180,6 +180,10 @@ body {
 .compre-ja .btn-plataforma .plataformas.ativo {
     display: flex;
     opacity: 1;
+}
+
+.compre-ja .btn-plataforma .plataformas li {
+    padding: 20px;
 }
 
 .compre-ja .btn-plataforma .plataformas li:nth-child(1) {
@@ -206,6 +210,7 @@ body {
     background-color: #387a26;
 }
 
+
 .compre-ja .btn-plataforma .plataformas li:nth-child(4) {
     border: 1px solid #387a26;
 }
@@ -221,5 +226,3 @@ body {
 .compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
     background-color: #fcaf17;
 }
-
-
